@@ -1,0 +1,15 @@
+products = [
+    {"name": "Monitor", "category": "Electrónica", "price": 200},
+    {"name": "Teclado", "category": "Electrónica", "price": 50},
+    {"name": "Silla", "category": "Muebles", "price": 120},
+    {"name": "Mesa", "category": "Muebles", "price": 180},
+    {"name": "Mouse", "category": "Electrónica", "price": 25},
+]
+total_by_category= {}
+for product in products:
+    category = product['category'] 
+    if category not in total_by_category:
+        total_by_category[category] = 0
+    total_by_category[category]+= product['price']
+
+print(total_by_category)
