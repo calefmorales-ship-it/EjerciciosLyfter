@@ -1,0 +1,5 @@
+{
+    "editor.guides.bracketPairs": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
